@@ -1,0 +1,40 @@
+#nav {
+  .navbar-lg {
+    background-color: $color_third;
+    .menu {
+      li {
+        position: relative;
+        &:nth-child(1)::after {
+          width: 100%;
+        }
+        &::after {
+          content: "";
+          display: block;
+          position: absolute;
+          height: 2px;
+          color: #fff;
+          background-color: #fff;
+          bottom: -5px;
+          width: 0;
+          transition: width 0.3s;
+        }
+        &:hover:after {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+  .navbar-mini {
+    img {
+      width: 5rem !important;
+    }
+  }
+  @include for-medium-devices {
+    .navbar-lg {
+      display: none;
+    }
+    .navbar-mini {
+      display: block !important;
+    }
+  }
+}

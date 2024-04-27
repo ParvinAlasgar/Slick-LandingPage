@@ -1,0 +1,33 @@
+html {
+  font-size: 1rem !important; }
+
+#nav .navbar-lg {
+  background-color: #5533ff; }
+  #nav .navbar-lg .menu li {
+    position: relative; }
+    #nav .navbar-lg .menu li:nth-child(1)::after {
+      width: 100%; }
+    #nav .navbar-lg .menu li::after {
+      content: "";
+      display: block;
+      position: absolute;
+      height: 2px;
+      color: #fff;
+      background-color: #fff;
+      bottom: -5px;
+      width: 0;
+      transition: width 0.3s; }
+    #nav .navbar-lg .menu li:hover:after {
+      width: 100% !important; }
+
+#nav .navbar-mini img {
+  width: 5rem !important; }
+
+@media (max-width: 768px) {
+  #nav .navbar-lg {
+    display: none; }
+  #nav .navbar-mini {
+    display: block !important; } }
+
+.active {
+  display: block !important; }

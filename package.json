@@ -1,0 +1,15 @@
+{
+  "name": "slick-landingpage",
+  "version": "1.0.0",
+  "description": "This is a web landing page application.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass assets/sass/main.scss -o assets/css/ -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
