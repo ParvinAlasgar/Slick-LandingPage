@@ -52,3 +52,11 @@ html {
 
 .active {
   display: block !important; }
+
+#main #about .about-item {
+  transition: border-color 0.3s; }
+  #main #about .about-item i {
+    color: #3ecf8e;
+    background: rgba(62, 207, 142, 0.3); }
+  #main #about .about-item:hover {
+    border-color: #3ecf8e !important; }

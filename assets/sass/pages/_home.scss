@@ -1,3 +1,18 @@
 .active {
   display: block !important;
 }
+// Main
+#main {
+  #about {
+    .about-item {
+      transition: border-color 0.3s;
+      i {
+        color: $color-second;
+        background: rgba($color: $color-second, $alpha: 0.3);
+      }
+      &:hover {
+        border-color: $color-second !important;
+      }
+    }
+  }
+}
