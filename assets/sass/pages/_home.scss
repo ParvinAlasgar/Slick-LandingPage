@@ -3,6 +3,7 @@
 }
 // Main
 #main {
+  // About
   #about {
     .about-item {
       transition: border-color 0.3s;
@@ -13,6 +14,12 @@
       &:hover {
         border-color: $color-second !important;
       }
+    }
+  }
+  // Craft
+  #craft {
+    a {
+      @include button(#fff, $color-second, #fff, $color-second);
     }
   }
 }

@@ -60,3 +60,12 @@ html {
     background: rgba(62, 207, 142, 0.3); }
   #main #about .about-item:hover {
     border-color: #3ecf8e !important; }
+
+#main #craft a {
+  color: #fff !important;
+  background-color: #3ecf8e !important;
+  padding: .6rem 1.5rem;
+  transition: all 0.3s; }
+  #main #craft a:hover {
+    color: #fff !important;
+    background-color: #3ecf8e !important; }
