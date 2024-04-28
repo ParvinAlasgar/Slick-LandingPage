@@ -1,0 +1,13 @@
+#header {
+  background-color: $color-third;
+  padding: 7rem 0;
+  a {
+    &:nth-child(1) {
+      @include button(#fff, $color-second, #fff, $color-third);
+      margin-right: 0.2rem;
+    }
+    &:nth-child(2) {
+      @include button($color-second, #fff, $color-second, #fff);
+    }
+  }
+}

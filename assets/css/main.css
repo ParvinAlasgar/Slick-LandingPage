@@ -29,5 +29,26 @@ html {
   #nav .navbar-mini {
     display: block !important; } }
 
+#header {
+  background-color: #5533ff;
+  padding: 7rem 0; }
+  #header a:nth-child(1) {
+    color: #fff !important;
+    background-color: #3ecf8e !important;
+    padding: .6rem 1.5rem;
+    transition: all 0.3s;
+    margin-right: 0.2rem; }
+    #header a:nth-child(1):hover {
+      color: #fff !important;
+      background-color: #5533ff !important; }
+  #header a:nth-child(2) {
+    color: #3ecf8e !important;
+    background-color: #fff !important;
+    padding: .6rem 1.5rem;
+    transition: all 0.3s; }
+    #header a:nth-child(2):hover {
+      color: #3ecf8e !important;
+      background-color: #fff !important; }
+
 .active {
   display: block !important; }
