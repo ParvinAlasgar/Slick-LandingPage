@@ -22,4 +22,47 @@
       @include button(#fff, $color-second, #fff, $color-second);
     }
   }
+  // Services
+  #services {
+    background-color: #f9f9f9;
+    .feature {
+      height: 15rem;
+      i {
+        color: $color-second;
+        background: rgba($color: $color-second, $alpha: 0.3);
+        transition: all 0.3s;
+        &:hover {
+          color: #fff;
+          background: rgba($color: $color-second, $alpha: 1);
+        }
+      }
+    }
+    @include for-medium-devices {
+      h4 {
+        font-size: 1rem;
+      }
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+  // Showcase
+  #showcase {
+    background: linear-gradient($color-first, $color-third);
+    .showcase-item {
+      .layer {
+        background: rgba($color: $color-second, $alpha: 0.7);
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        height: 80%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+      &:hover .layer {
+        opacity: 1;
+      }
+    }
+  }
 }

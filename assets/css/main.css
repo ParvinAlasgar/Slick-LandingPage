@@ -69,3 +69,34 @@ html {
   #main #craft a:hover {
     color: #fff !important;
     background-color: #3ecf8e !important; }
+
+#main #services {
+  background-color: #f9f9f9; }
+  #main #services .feature {
+    height: 15rem; }
+    #main #services .feature i {
+      color: #3ecf8e;
+      background: rgba(62, 207, 142, 0.3);
+      transition: all 0.3s; }
+      #main #services .feature i:hover {
+        color: #fff;
+        background: #3ecf8e; }
+  @media (max-width: 768px) {
+    #main #services h4 {
+      font-size: 1rem; }
+    #main #services p {
+      font-size: 0.8rem; } }
+
+#main #showcase {
+  background: linear-gradient(#7fc9fb, #5533ff); }
+  #main #showcase .showcase-item .layer {
+    background: rgba(62, 207, 142, 0.7);
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s; }
+  #main #showcase .showcase-item:hover .layer {
+    opacity: 1; }
