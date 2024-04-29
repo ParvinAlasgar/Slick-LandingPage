@@ -65,4 +65,25 @@
       }
     }
   }
+  // Plans
+  #plans {
+    .plan {
+      transition: all 0.3s;
+      h2 {
+        color: $color-second;
+      }
+      a {
+        @include button($color-second, #fff, #000, #fff);
+        border-color: $color-second !important;
+        &.second {
+          background-color: $color-second !important;
+          color: #fff !important;
+        }
+      }
+      &:hover {
+        border-color: $color-second !important;
+        box-shadow: -1px 2px 14px -6px rgba(0, 0, 0, 0.81);
+      }
+    }
+  }
 }

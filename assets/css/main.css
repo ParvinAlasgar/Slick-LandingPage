@@ -100,3 +100,23 @@ html {
     transition: opacity 0.3s; }
   #main #showcase .showcase-item:hover .layer {
     opacity: 1; }
+
+#main #plans .plan {
+  transition: all 0.3s; }
+  #main #plans .plan h2 {
+    color: #3ecf8e; }
+  #main #plans .plan a {
+    color: #3ecf8e !important;
+    background-color: #fff !important;
+    padding: .6rem 1.5rem;
+    transition: all 0.3s;
+    border-color: #3ecf8e !important; }
+    #main #plans .plan a:hover {
+      color: #000 !important;
+      background-color: #fff !important; }
+    #main #plans .plan a.second {
+      background-color: #3ecf8e !important;
+      color: #fff !important; }
+  #main #plans .plan:hover {
+    border-color: #3ecf8e !important;
+    box-shadow: -1px 2px 14px -6px rgba(0, 0, 0, 0.81); }
